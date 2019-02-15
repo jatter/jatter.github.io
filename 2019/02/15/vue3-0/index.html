@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="软件技术,jatter博客">
+    <meta name="keyword" content>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        vue3.0 - undefined
+        
+    </title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/aircloud.css">
+    <link rel="stylesheet" href="/css/gitment.css">
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> jatter的博客 </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar">
+            <img src="/img/avatar.jpg">
+        </div>
+        <div class="name">
+            <i>jatter</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li>
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#基于vue3-0实现后台管理模板"><span class="toc-text">基于vue3.0实现后台管理模板</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#项目结构"><span class="toc-text">项目结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#相关技术"><span class="toc-text">相关技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#功能介绍"><span class="toc-text">功能介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#项目编译和运行"><span class="toc-text">项目编译和运行</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#成果展示"><span class="toc-text">成果展示</span></a></li></ol></li></ol>
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input">
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+        <div class="index-about-mobile">
+            <i> jatter的博客 </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        vue3.0
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2019-02-15 10:38:50</span></span>
+        
+        
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+
+    </div>
+    <div class="post-content ">
+        <h1 id="基于vue3-0实现后台管理模板"><a href="#基于vue3-0实现后台管理模板" class="headerlink" title="基于vue3.0实现后台管理模板"></a>基于vue3.0实现后台管理模板</h1><blockquote>
+<p>通过自己所学的vue知识，从0开始自己搭建的一个关于后台管理的模板界面，有时间就会更新新的内容，实现一些常用的功能，<br>使用vue最新脚手架搭建环境，编写界面，使用axios请求接口，渲染界面,实现页面登录注册，数据的增删改查,数据部分存储到easy-mock数据中。</p>
+</blockquote>
+<h2 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"> |——— client  #vue项目入口文件</span><br><span class="line">|——— config  #秘钥配置文件</span><br><span class="line">|——— node_modules #一些常用安装的依赖</span><br><span class="line">|——— models #接口模型</span><br><span class="line">|——— router       #接口文档</span><br><span class="line">|——— package.json #项目配置文件</span><br><span class="line">|___ README.md    #项目的说明文档，markdown 格式</span><br></pre></td></tr></table></figure>
+<h2 id="相关技术"><a href="#相关技术" class="headerlink" title="相关技术"></a>相关技术</h2><pre><code>1. vuejs2.0：一套构建用户界面的渐进式框架，易用、灵活、高效。
+2. vue-router：官方的路由组件，配合vue.js创建单页应用（SPA）非常简单。
+3. axios: 基于 Promise 的 HTTP 请求客户端，可同时在浏览器和 node.js 中使用。
+</code></pre><h2 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h2><pre><code>- Element-ui
+- 请求拦截和响应拦截
+- 富文本编辑器
+- Markdown编辑器
+- Echarts
+- tab数据切换
+- token本地存储
+- 表单
+- 高德地图引入
+- 登录注册
+- 路由守卫
+- vuex存储
+- 数据分页和查询
+- Excel表格导出
+- 递归组件
+- 主题更换
+- 404
+</code></pre><h2 id="项目编译和运行"><a href="#项目编译和运行" class="headerlink" title="项目编译和运行"></a>项目编译和运行</h2><ul>
+<li>可以直接在git上下载项目源码。把github下载到本地，<pre><code>git clone [](https://github.com/MrZHLF/vue-admin.git)
+</code></pre><ul>
+<li>进入node-api-element当前页面初始化<br>  cnpm install</li>
+<li>进入client项目目录中<br>  cnpm install</li>
+</ul>
+</li>
+<li>所有依赖安装成功后执行启动命令在当前目录启动,不要在client进行启动，已经配置好前后端联调<br>  npm run dev<br>  如果显示一下内容说明安装成功<br>  I  Your application is running here: <a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a></li>
+</ul>
+<h2 id="成果展示"><a href="#成果展示" class="headerlink" title="成果展示"></a>成果展示</h2><p> <img src="./img/1.png" alt="avatar"><br> <img src="./img/2.png" alt="avatar"><br> <img src="./img/3.png" alt="avatar"></p>
+<p> <img src="./img/4.gif" alt="avatar"><br>更新中…</p>
+
+        
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+</html>
