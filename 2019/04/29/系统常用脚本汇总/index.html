@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="script,">
+  <meta name="keywords" content="system,script,">
 
 
 
@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="开发常用脚本">
-<meta name="keywords" content="script">
+<meta name="description" content="一:清理系统脚本">
+<meta name="keywords" content="system,script">
 <meta property="og:type" content="article">
-<meta property="og:title" content="dev-common-script">
-<meta property="og:url" content="http://yoursite.com/2019/04/28/dev-common-script/index.html">
+<meta property="og:title" content="系统常用脚本汇总">
+<meta property="og:url" content="http://yoursite.com/2019/04/29/系统常用脚本汇总/index.html">
 <meta property="og:site_name" content="jatter的博客">
-<meta property="og:description" content="开发常用脚本">
+<meta property="og:description" content="一:清理系统脚本">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-04-29T04:05:48.545Z">
+<meta property="og:updated_time" content="2019-04-29T05:16:11.798Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="dev-common-script">
-<meta name="twitter:description" content="开发常用脚本">
+<meta name="twitter:title" content="系统常用脚本汇总">
+<meta name="twitter:description" content="一:清理系统脚本">
 
 
 
@@ -122,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/04/28/dev-common-script/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/29/系统常用脚本汇总/">
 
 
 
 
 
-  <title>dev-common-script | jatter的博客</title>
+  <title>系统常用脚本汇总 | jatter的博客</title>
   
 
 
@@ -287,7 +287,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/28/dev-common-script/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/29/系统常用脚本汇总/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="jatter">
@@ -304,7 +304,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">dev-common-script</h1>
+          <h1 class="post-title" itemprop="name headline">系统常用脚本汇总</h1>
         
 
         <div class="post-meta">
@@ -316,8 +316,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-28T14:24:50+08:00">
-                2019-04-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-29T13:15:26+08:00">
+                2019-04-29
               </time>
             
 
@@ -356,9 +356,8 @@
       
 
       
-        <h1 id="开发常用脚本"><a href="#开发常用脚本" class="headerlink" title="开发常用脚本"></a>开发常用脚本</h1><a id="more"></a>
-<h3 id="一-终止java进程"><a href="#一-终止java进程" class="headerlink" title="一:终止java进程"></a>一:终止java进程</h3><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">echo</span> 开始终止java进程</span><br><span class="line"><span class="built_in">taskkill</span> /f /t /im java.exe</span><br><span class="line"><span class="built_in">echo</span> 终止java进程完成</span><br><span class="line">::<span class="built_in">taskkill</span> /im java.exe /f</span><br></pre></td></tr></table></figure>
-
+        <h3 id="一-清理系统脚本"><a href="#一-清理系统脚本" class="headerlink" title="一:清理系统脚本"></a>一:清理系统脚本</h3><a id="more"></a>
+<figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 正在清除系统垃圾文件，请稍等......</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  <span class="variable">%systemdrive%</span>\*.tmp</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  <span class="variable">%systemdrive%</span>\*._mp</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  <span class="variable">%systemdrive%</span>\*.log</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  <span class="variable">%systemdrive%</span>\*.gid</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  <span class="variable">%systemdrive%</span>\*.chk</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  <span class="variable">%systemdrive%</span>\*.old</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  <span class="variable">%systemdrive%</span>\recycled\*.*</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  <span class="variable">%windir%</span>\*.bak</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  <span class="variable">%windir%</span>\prefetch\*.*</span><br><span class="line"></span><br><span class="line"><span class="built_in">rd</span> /s /q <span class="variable">%windir%</span>\temp &amp; <span class="built_in">md</span>  <span class="variable">%windir%</span>\temp</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /q  <span class="variable">%userprofile%</span>\cookies\*.*</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /q  <span class="variable">%userprofile%</span>\recent\*.*</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  "<span class="variable">%userprofile%</span>\Local Settings\Temporary Internet Files\*.*"</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  "<span class="variable">%userprofile%</span>\Local Settings\Temp\*.*"</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /s /q  "<span class="variable">%userprofile%</span>\recent\*.*"</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 清除系统LJ完成！</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span>. &amp; <span class="built_in">pause</span></span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -375,6 +374,8 @@
       
         <div class="post-tags">
           
+            <a href="/tags/system/" rel="tag"># system</a>
+          
             <a href="/tags/script/" rel="tag"># script</a>
           
         </div>
@@ -388,8 +389,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/04/26/window-wget/" rel="next" title="window-wget">
-                <i class="fa fa-chevron-left"></i> window-wget
+              <a href="/2019/04/29/hexo使用笔记/" rel="next" title="hexo使用笔记">
+                <i class="fa fa-chevron-left"></i> hexo使用笔记
               </a>
             
           </div>
@@ -397,10 +398,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/04/28/system-common-script/" rel="prev" title="system-common-script">
-                system-common-script <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -484,22 +481,13 @@
             
 
             
-              
-              
-              <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">分类</span>
-                </a>
-              </div>
-            
 
             
               
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -539,7 +527,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#开发常用脚本"><span class="nav-text">开发常用脚本</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一-终止java进程"><span class="nav-text">一:终止java进程</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一-清理系统脚本"><span class="nav-text">一:清理系统脚本</span></a></li></ol></div>
             
 
           </div>

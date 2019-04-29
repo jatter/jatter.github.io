@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-29T04:01:49.216Z</updated>
+  <updated>2019-04-29T05:16:11.798Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,93 +17,53 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>spring-common-data-handle</title>
-    <link href="http://yoursite.com/2019/04/28/spring-common-data-handle/"/>
-    <id>http://yoursite.com/2019/04/28/spring-common-data-handle/</id>
-    <published>2019-04-28T06:47:38.000Z</published>
-    <updated>2019-04-29T04:01:49.216Z</updated>
+    <title>系统常用脚本汇总</title>
+    <link href="http://yoursite.com/2019/04/29/%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E8%84%9A%E6%9C%AC%E6%B1%87%E6%80%BB/"/>
+    <id>http://yoursite.com/2019/04/29/系统常用脚本汇总/</id>
+    <published>2019-04-29T05:15:26.000Z</published>
+    <updated>2019-04-29T05:16:11.798Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;开发通用增删查改&quot;&gt;&lt;a href=&quot;#开发通用增删查改&quot; class=&quot;headerlink&quot; title=&quot;开发通用增删查改&quot;&gt;&lt;/a&gt;开发通用增删查改&lt;/h1&gt;
+      &lt;h3 id=&quot;一-清理系统脚本&quot;&gt;&lt;a href=&quot;#一-清理系统脚本&quot; class=&quot;headerlink&quot; title=&quot;一:清理系统脚本&quot;&gt;&lt;/a&gt;一:清理系统脚本&lt;/h3&gt;
     
     </summary>
     
-      <category term="spring" scheme="http://yoursite.com/categories/spring/"/>
-    
-    
-      <category term="spring" scheme="http://yoursite.com/tags/spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>spring-groovy-dynamic</title>
-    <link href="http://yoursite.com/2019/04/28/spring-groovy-dynamic/"/>
-    <id>http://yoursite.com/2019/04/28/spring-groovy-dynamic/</id>
-    <published>2019-04-28T06:34:06.000Z</published>
-    <updated>2019-04-29T04:06:26.786Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;freemarker-spring-groovy-mysql动态查询&quot;&gt;&lt;a href=&quot;#freemarker-spring-groovy-mysql动态查询&quot; class=&quot;headerlink&quot; title=&quot;freemarker+spring+groovy+mysql动态查询&quot;&gt;&lt;/a&gt;freemarker+spring+groovy+mysql动态查询&lt;/h1&gt;
-    
-    </summary>
-    
-    
-      <category term="spring" scheme="http://yoursite.com/tags/spring/"/>
-    
-      <category term="groovy" scheme="http://yoursite.com/tags/groovy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>system-common-script</title>
-    <link href="http://yoursite.com/2019/04/28/system-common-script/"/>
-    <id>http://yoursite.com/2019/04/28/system-common-script/</id>
-    <published>2019-04-28T06:27:50.000Z</published>
-    <updated>2019-04-29T04:05:44.059Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;系统常用脚本&quot;&gt;&lt;a href=&quot;#系统常用脚本&quot; class=&quot;headerlink&quot; title=&quot;系统常用脚本&quot;&gt;&lt;/a&gt;系统常用脚本&lt;/h1&gt;
-    
-    </summary>
-    
-    
-      <category term="script" scheme="http://yoursite.com/tags/script/"/>
     
       <category term="system" scheme="http://yoursite.com/tags/system/"/>
     
-  </entry>
-  
-  <entry>
-    <title>dev-common-script</title>
-    <link href="http://yoursite.com/2019/04/28/dev-common-script/"/>
-    <id>http://yoursite.com/2019/04/28/dev-common-script/</id>
-    <published>2019-04-28T06:24:50.000Z</published>
-    <updated>2019-04-29T04:05:48.545Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;开发常用脚本&quot;&gt;&lt;a href=&quot;#开发常用脚本&quot; class=&quot;headerlink&quot; title=&quot;开发常用脚本&quot;&gt;&lt;/a&gt;开发常用脚本&lt;/h1&gt;
-    
-    </summary>
-    
-    
       <category term="script" scheme="http://yoursite.com/tags/script/"/>
     
   </entry>
   
   <entry>
-    <title>window-wget</title>
-    <link href="http://yoursite.com/2019/04/26/window-wget/"/>
-    <id>http://yoursite.com/2019/04/26/window-wget/</id>
-    <published>2019-04-26T09:10:30.000Z</published>
-    <updated>2019-04-29T04:02:48.994Z</updated>
+    <title>hexo使用笔记</title>
+    <link href="http://yoursite.com/2019/04/29/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/04/29/hexo使用笔记/</id>
+    <published>2019-04-29T05:12:17.000Z</published>
+    <updated>2019-04-29T05:13:56.082Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Window下通过wget命令行下载解压rar文件&quot;&gt;&lt;a href=&quot;#Window下通过wget命令行下载解压rar文件&quot; class=&quot;headerlink&quot; title=&quot;Window下通过wget命令行下载解压rar文件&quot;&gt;&lt;/a&gt;Window下通过wget命令行下载解压rar文件&lt;/h1&gt;
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>window-wget工具使用</title>
+    <link href="http://yoursite.com/2019/04/29/window-wget%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2019/04/29/window-wget工具使用/</id>
+    <published>2019-04-29T05:11:01.000Z</published>
+    <updated>2019-04-29T05:11:42.961Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;一-下载安装wget&quot;&gt;&lt;a href=&quot;#一-下载安装wget&quot; class=&quot;headerlink&quot; title=&quot;一:下载安装wget&quot;&gt;&lt;/a&gt;一:下载安装wget&lt;/h3&gt;&lt;p&gt;   下载地址:&lt;a href=&quot;https://pan.baidu.com/s/1BFbcdcQBclWtz9RTnKB7hw&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://pan.baidu.com/s/1BFbcdcQBclWtz9RTnKB7hw&lt;/a&gt; (提取码:u5ug)&lt;/p&gt;
     
     </summary>
     
@@ -113,31 +73,33 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/02/15/hello-world/"/>
-    <id>http://yoursite.com/2019/02/15/hello-world/</id>
-    <published>2019-02-15T06:34:58.423Z</published>
-    <updated>2019-04-29T04:01:37.079Z</updated>
+    <title>开发常用脚本汇总</title>
+    <link href="http://yoursite.com/2019/04/29/%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8%E8%84%9A%E6%9C%AC%E6%B1%87%E6%80%BB/"/>
+    <id>http://yoursite.com/2019/04/29/开发常用脚本汇总/</id>
+    <published>2019-04-29T05:08:29.000Z</published>
+    <updated>2019-04-29T05:09:10.250Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+      &lt;h3 id=&quot;一-终止java进程&quot;&gt;&lt;a href=&quot;#一-终止java进程&quot; class=&quot;headerlink&quot; title=&quot;一:终止java进程&quot;&gt;&lt;/a&gt;一:终止java进程&lt;/h3&gt;
     
     </summary>
     
     
+      <category term="script" scheme="http://yoursite.com/tags/script/"/>
+    
   </entry>
   
   <entry>
-    <title>vue3.0</title>
-    <link href="http://yoursite.com/2019/02/15/vue3-0/"/>
-    <id>http://yoursite.com/2019/02/15/vue3-0/</id>
-    <published>2019-02-15T02:38:50.000Z</published>
-    <updated>2019-04-29T04:02:15.184Z</updated>
+    <title>基于vue3.0实现后台管理模板</title>
+    <link href="http://yoursite.com/2019/04/29/%E5%9F%BA%E4%BA%8Evue3-0%E5%AE%9E%E7%8E%B0%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF/"/>
+    <id>http://yoursite.com/2019/04/29/基于vue3-0实现后台管理模板/</id>
+    <published>2019-04-29T05:07:00.000Z</published>
+    <updated>2019-04-29T05:07:49.830Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;基于vue3-0实现后台管理模板&quot;&gt;&lt;a href=&quot;#基于vue3-0实现后台管理模板&quot; class=&quot;headerlink&quot; title=&quot;基于vue3.0实现后台管理模板&quot;&gt;&lt;/a&gt;基于vue3.0实现后台管理模板&lt;/h1&gt;&lt;blockquote&gt;
+      &lt;blockquote&gt;
 &lt;p&gt;通过自己所学的vue知识，从0开始自己搭建的一个关于后台管理的模板界面，有时间就会更新新的内容，实现一些常用的功能，&lt;br&gt;使用vue最新脚手架搭建环境，编写界面，使用axios请求接口，渲染界面,实现页面登录注册，数据的增删改查,数据部分存储到easy-mock数据中。&lt;br&gt;
     
     </summary>
@@ -146,6 +108,50 @@
       <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
     
       <category term="vue3.0" scheme="http://yoursite.com/tags/vue3-0/"/>
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于spring,mybatis,mysql的通用增删查改</title>
+    <link href="http://yoursite.com/2019/04/29/%E5%9F%BA%E4%BA%8Espring-mybatis-mysql%E7%9A%84%E9%80%9A%E7%94%A8%E5%A2%9E%E5%88%A0%E6%9F%A5%E6%94%B9/"/>
+    <id>http://yoursite.com/2019/04/29/基于spring-mybatis-mysql的通用增删查改/</id>
+    <published>2019-04-29T05:04:52.000Z</published>
+    <updated>2019-04-29T05:16:44.667Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;通用增删查改实现&quot;&gt;&lt;a href=&quot;#通用增删查改实现&quot; class=&quot;headerlink&quot; title=&quot;通用增删查改实现&quot;&gt;&lt;/a&gt;通用增删查改实现&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="spring" scheme="http://yoursite.com/tags/spring/"/>
+    
+      <category term="mybatis" scheme="http://yoursite.com/tags/mybatis/"/>
+    
+      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>freemarker+spring+groovy+mysql动态查询</title>
+    <link href="http://yoursite.com/2019/04/29/freemarker-spring-groovy-mysql%E5%8A%A8%E6%80%81%E6%9F%A5%E8%AF%A2/"/>
+    <id>http://yoursite.com/2019/04/29/freemarker-spring-groovy-mysql动态查询/</id>
+    <published>2019-04-29T04:58:20.000Z</published>
+    <updated>2019-04-29T05:03:13.611Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;为避免项目中众多的垒代码的CRUD功能-通过freemarker-spring-groovy-mysql实现页面动态查询功态&quot;&gt;&lt;a href=&quot;#为避免项目中众多的垒代码的CRUD功能-通过freemarker-spring-groovy-mysql实现页面动态查询功态&quot; class=&quot;headerlink&quot; title=&quot;为避免项目中众多的垒代码的CRUD功能,通过freemarker,spring,groovy,mysql实现页面动态查询功态&quot;&gt;&lt;/a&gt;为避免项目中众多的垒代码的CRUD功能,通过freemarker,spring,groovy,mysql实现页面动态查询功态&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="spring" scheme="http://yoursite.com/tags/spring/"/>
+    
+      <category term="groovy" scheme="http://yoursite.com/tags/groovy/"/>
     
   </entry>
   
